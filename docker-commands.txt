@@ -1,0 +1,4 @@
+docker  ps
+docker images
+docker build -f docker_file -t image_name .
+docker run -it -v ${PWD}:/usr/src/app -p 4200:4200 angular-docker-image
